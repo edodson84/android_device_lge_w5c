@@ -17,11 +17,11 @@ else
 endif
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel:kernel \
+    $(LOCAL_KERNEL):kernel \
 
 # DT Image
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/dt.img:dt.img \
+    $(LOCAL_PATH)/dt.img \
 
 # Kernel Ramdisk
 PRODUCT_COPY_FILES += \
